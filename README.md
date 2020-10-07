@@ -91,74 +91,7 @@ The project is started with the regular ionic commands.
 An alternative is to emulate the app on a device or upload it to the ionic cloud. From here you can download the ionic view app and use the app on all devices.
 
   
-  
-  ## Start the project
-  The project is started with the regular ionic commands.
-  
-  1. Run `npm install` to install all dependencies.
-  2. Run `ionic serve` to start the development environment.
-  3. To build the project run `ionic build android` or `ionic build ios`. In order for you to build an iOS app, you need to run on MacOS.
-  
-  An alternative is to emulate the app on a device or upload it to the ionic cloud. From here you can download the ionic view app and use the app on all devices.
+ # Further development
+we have to youse v3 documentation not v4 documentations
 
-#Releasing & *FB Authentication*#
-ionic plugin add cordova-plugin-facebook4 --variable APP_ID="1336689246395066" --variable APP_NAME="iMobileDemo"
-
-http://www.angulartypescript.com/angular-2-ionic-2-build-android/
-Requieremnet Open SSL
-Hash Fix - https://forum.ionicframework.com/t/key-hash-for-facebook-not-working/44357/5 
-
-*For andorid*
-- gen key
-
-keytool -export -alias iMobileDemo -keystore iMobileDemo.keystore | C:\OpenSSL\bin\openssl sha1 -binary | C:\OpenSSL\bin\openssl base64
-keytool -list -printcert -jarfile android-debug.apk
-
-- gen hash
-
-keytool -genkey -v -keystore iMobileDemo.keystore -alias iMobileDemo -keyalg RSA -keysize 2048 -validity 10000
-
-Or 
-
-keytool -export -alias iMobileDemo -keystore C:\Users\User\Desktop\ionic\MyIonic2Project\platforms\android\iMobileDemo.keystore | C:\OpenSSL\bin\openssl sha1 -binary | C:\OpenSSL\bin\openssl enc -a -e
-
-// To get proper hash use Hash Fix - https://forum.ionicframework.com/t/key-hash-for-facebook-not-working/44357/5 
-//Short Cut to get Hex - keytool -exportcert -keystore C:\Users\User\Desktop\ionic\MyIonic2Project\platforms\android\iMobileDemo.keystore -list -v
-
-1.  Copy the file to java folder and run
-2. keytool -list -printcert -jarfile android-release-unsigned.apk
-3. Get sha1
-4. Convert from http://tomeko.net/online_tools/hex_to_base64.php and put it in FB
-
-#Gen has for debug#
-keytool -exportcert -keystore path-to-debug-or-production-keystore -list -v
--7C:B2:0C:5B:86:A7:EB:CD:2E:F0:D8:18:04:6E:E2:A5:A2:AD:83:BC
-1.  Copy the file to java folder and run
-2. keytool -list -printcert -jarfile android-debug.apk
-3. Get sha1
-4. Convert from http://tomeko.net/online_tools/hex_to_base64.php and put it in FB
-
-
-
-#Google Plus#
-{"installed":
-{"client_id":"366054038002-nq33mmkpoelanhgua7d5am2lu8fgs31g.apps.googleusercontent.com",
-"project_id":"test-1-154115",
-"auth_uri":"https://accounts.google.com/o/oauth2/auth",
-"token_uri":"https://accounts.google.com/o/oauth2/token",
-"auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
-"redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]},
-REVERSED_CLIENT_ID: "com.googleusercontent.apps.366054038002-nq33mmkpoelanhgua7d5am2lu8fgs31g"
-}
-
-ionic plugin add cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.366054038002-nq33mmkpoelanhgua7d5am2lu8fgs31g
-
-
-
-#Twitter#
-https://ionicthemes.com/tutorials/about/ionic2-twitter-login
-Fabric API - bc96a62edb8467d017903eb8fcd71fa366329f08
-Consumer Key (API Key)	bd9flnVtMqxNiM800LlFjW13l
-Consumer Secret (API Secret)	eSMnkpryProV0nFoI8tcLadt0VNlQGRkYXDkSh0WC6bgYfyZGJ
-
-ionic plugin add twitter-connect-plugin --variable FABRIC_KEY=bc96a62edb8467d017903eb8fcd71fa366329f08
+https://ionicframework.com/docs/v3/
