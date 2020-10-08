@@ -13,7 +13,7 @@ Ionic is based on Angular and comes with many significant performance, usability
 You'll need the Ionic CLI with support for v3 apps:
 
 ```bash
-$ npm install -g ionic@3.20.0.
+$ npm install -g ionic
 ```
 
 ## Creating project
