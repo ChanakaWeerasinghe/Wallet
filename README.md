@@ -1,6 +1,6 @@
 # Wallet
 
-Ionic 3 App Base Project
+TAM Wallet Ionic 3 App Base Project
 =====================
 
 Tam Wallet written in ionic 3 .
