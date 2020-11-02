@@ -94,4 +94,11 @@ An alternative is to emulate the app on a device or upload it to the ionic cloud
  # Further development
 we have to youse v3 documentation not v4 documentations
 
+ # Ionic 3 development beginning
+ 
+Creating sample project 
+
+`ionic start MyProject --type=ionic-angular`
+
+
 https://ionicframework.com/docs/v3/
