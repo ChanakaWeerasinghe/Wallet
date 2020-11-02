@@ -101,35 +101,5 @@ Creating sample project
 `ionic start MyProject --type=ionic-angular`
 
 
-ionic info
 
-`ionic info`
-
-`Ionic:
-
-   Ionic CLI          : 5.2.5 (/usr/local/lib/node_modules/ionic)
-   Ionic Framework    : ionic-angular 3.9.9
-   @ionic/app-scripts : 3.2.3
-
-Cordova:
-
-   Cordova CLI       : 7.1.0
-   Cordova Platforms : ios 5.1.1
-   Cordova Plugins   : cordova-plugin-ionic-keyboard 2.2.0, cordova-plugin-ionic-webview 5.0.0, (and 41 other plugins)
-
-Utility:
-
-   cordova-res : 0.14.0 (update available: 0.15.1)
-   native-run  : 0.2.7 (update available: 1.2.2)
-
-System:
-
-   Android SDK Tools : 26.1.1 (/Users/xxxxx/Library/Android/sdk/)
-   ios-deploy        : 1.11.0
-   ios-sim           : 8.0.2
-   NodeJS            : v12.16.1 (/usr/local/bin/node)
-   npm               : 6.14.4
-   OS                : macOS Catalina
-   Xcode             : Xcode 11.6 Build version 11E708
-`
 https://ionicframework.com/docs/v3/
