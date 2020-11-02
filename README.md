@@ -105,7 +105,7 @@ ionic info
 
 `ionic info`
 
-Ionic:
+`Ionic:
 
    Ionic CLI          : 5.2.5 (/usr/local/lib/node_modules/ionic)
    Ionic Framework    : ionic-angular 3.9.9
@@ -133,5 +133,5 @@ System:
    Xcode             : Xcode 11.6 Build version 11E708
 
 
-
+`
 https://ionicframework.com/docs/v3/
