@@ -131,7 +131,5 @@ System:
    npm               : 6.14.4
    OS                : macOS Catalina
    Xcode             : Xcode 11.6 Build version 11E708
-
-
 `
 https://ionicframework.com/docs/v3/
